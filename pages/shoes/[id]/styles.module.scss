@@ -1,0 +1,53 @@
+.shoes {
+  margin: 0 300px;
+
+  &_container {
+    display: flex;
+    flex-direction: column;
+
+    .shoes_search {
+      width: 220px;
+      border: 1px solid rgb(0, 0, 0);
+      border-radius: 5px;
+      padding: 2px;
+      justify-content: flex-end;
+      margin: 10px 0;
+
+      .input {
+        border: none;
+      }
+
+      .input:focus {
+        outline: none;
+      }
+    }
+
+    .shoes_wrapper {
+      display: grid;
+      // grid-template-columns: 360px 360px 360px;
+      column-gap: 20px;
+    }
+  }
+}
+
+.shoes_item {
+  background-color: #f8f7f6;
+  text-align: center;
+  column-gap: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 10px 0;
+
+  .title {
+    padding-top: 10px;
+  }
+
+  .price {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .des {
+    padding: 20px;
+  }
+}

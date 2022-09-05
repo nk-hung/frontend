@@ -1,0 +1,46 @@
+$white-color: #fff;
+$color_red: #dc3545;
+$color_black: #000;
+
+.nav {
+  display: flex;
+  background-color: $white-color;
+  width: 100%;
+  padding: 0 300px;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  box-sizing: border-box;
+
+  .main_menu {
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      li {
+        display: inline-flex;
+
+        a {
+          padding: 30px 15px;
+          color: $color_black;
+
+          &:hover {
+            color: $color_red !important;
+          }
+        }
+      }
+    }
+  }
+
+  .header_right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+
+    .account {
+      font-size: 16px;
+    }
+  }
+}

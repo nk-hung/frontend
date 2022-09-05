@@ -1,0 +1,21 @@
+.shoes_item {
+  background-color: #f8f7f6;
+  text-align: center;
+  column-gap: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 10px 0;
+
+  .title {
+    padding-top: 10px;
+  }
+
+  .price {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .des {
+    padding: 20px;
+  }
+}

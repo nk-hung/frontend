@@ -1,0 +1,25 @@
+$color_black: #000;
+$color_while: #fff;
+.header_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 300px;
+  font-weight: 700;
+  font-size: 16px;
+  background-color: #bbb09b;
+
+  .wrapper {
+    display: flex;
+    color: $color_while;
+
+    &_left {
+      padding-right: 50px;
+    }
+    &_right {
+      display: flex;
+      column-gap: 20px;
+    }
+  }
+}

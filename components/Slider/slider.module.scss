@@ -1,0 +1,42 @@
+$color_back: #000;
+$color_white: #fff;
+$gray_dark: #343a40;
+$gray: #464d55;
+
+.slider_container {
+  width: 100%;
+  background-color: rgb(252, 244, 244);
+
+  .slider_wrapper {
+    margin: 0 300px;
+    display: flex;
+
+    .left {
+      padding: 50px 300px 50px 0;
+
+      .title {
+        font-size: 64px;
+        font-weight: 600;
+        text-transform: capitalize;
+      }
+
+      .description {
+        font-size: 24px;
+      }
+
+      .btn {
+        margin-top: 20px;
+        padding: 10px 40px;
+        border: 1px solid $gray_dark;
+        background-color: $gray_dark;
+        color: $color_white;
+        font-weight: 600;
+
+        &:hover {
+          cursor: pointer;
+          background-color: $gray;
+        }
+      }
+    }
+  }
+}
